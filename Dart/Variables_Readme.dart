@@ -1,4 +1,4 @@
-/A variable is a container for storing data values.
+//A variable is a container for storing data values.
 // A variable is  a named location in memory that is used to store data.
 // The name of the variable is its identifier. 
 //In Dart, an identifier is any valid string of letters, digits, and underscores that does not begin with a digit.
@@ -35,4 +35,4 @@
 //You can assign a value to a variable when it is declared. This is called initializing a variable. For example, int age = 20; declares an integer variable named age with an initial value of 20.
 //If the first character of the variable name is a digit, then it should be prefixed with an underscore (_). For example, int _age = 20; declares an integer variable named _age with an initial value of 20.
 //You can assign a value to a variable at declaration time by including an initializer list after the variable name. For example, int age = 20; declares an integer variable named age with an initial value of 20.
-//You can assign a value to a variable when you declare it. If you don't assign a value to a variable when you declare it, then it will have a default value of null.
+//You can assign a value to a variable when you declare it. If you don't assign a value to a variable when you declare it, then it will have a default value of null.*/
