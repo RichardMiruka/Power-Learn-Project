@@ -13,3 +13,7 @@ void main() {
   print("Height is $height");
   print("Married status is $isMarried");
 }
+
+//A variable is a container for storing data values.
+// A variable is  a named location in memory that is used to store data.
+
