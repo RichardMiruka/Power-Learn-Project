@@ -9,3 +9,4 @@ print(f"{a} {b} {c}")
 #print(c) # Output: Hello
 
 # Rearranging the order will give an error because not all variables are assigned a value
+
