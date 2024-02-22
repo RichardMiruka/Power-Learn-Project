@@ -9,6 +9,7 @@
 
 product = ('Mobile', 1000, 'Samsung', 'Android') # Tuple of strings and integers
 print(type(product))                            # <class 'tuple'>
+print (product)                                 # ('Mobile', 1000, 'Samsung', 'Android')
 
 #accessing the element of tuple
 print("Element at index 2:", product[2])       # Samsung
@@ -16,7 +17,7 @@ print("Element at index 2:", product[2])       # Samsung
 try:
     product[2] = 'Nokia' # TypeError: 'tuple' object does not support item assignment
 except Exception as e:
-    print(e)
+    print(e)    
     
 #we can access individual characters also using indexing
 print("Character at index 3: ", product[3][0])   # Android
