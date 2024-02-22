@@ -23,4 +23,3 @@ g, h = 1, 2, 3, 4, 5 # ValueError: too many values to unpack (expected 2)
 # To avoid this error, you can add extra underscore '_'. It won't be used and is just a convention.
 _ ,h , _= 1, 2, 3, 4, 5
 print(h) # Output: 2    
-
