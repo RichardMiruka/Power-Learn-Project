@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making Images Clickable</title>
+    <style>
+        .image-align-left {
+            float: left;
+            margin-right: 10px; /* Add some space between the image and the text */
+        }
+
+        figure {
+            margin: 0; /* Remove default margin on figure element */
+        }
+
+        figcaption {
+            text-align: center; /* Center the caption text */
+        }
+    </style>
+</head>
+<body>
+    <figure class="image-align-left">
+        <a href="https://www.cats.org.uk/uploads/images/featurebox_sidebar_kids/grief-and-loss.jpg" target="_blank">
+            <img src="images/cat_image.jpg" alt="Image of a Cat" width="300" height="200" loading="lazy"/> <!-- Added loading="lazy" attribute -->
+            <!--Improve website performance by implementing lazy loading-->
+            <!--The browser will only load the image when it's in or near the viewport (visible area) of the web page  -->
+            <!--Lazy loading can help improve page loading performance by reducing the initial load time for images that are not immediately visible to the user.-->
+        </a>
+        <figcaption>This is a cat. It's cute! Click on it to see a larger image.</figcaption>
+    </figure>
+</body>
+</html>
+ 
