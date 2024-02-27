@@ -1,21 +1,38 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Images in HTML</title>
+    <title>Working with Images in HTML</title>
 </head>
 <body>
-    <img
-        src="images/IMG_2149_1.webp" 
-        alt="Image of ALX Frontend/Backend Specialisation"
-        style="display: block; margin: auto;"    
-    />
+    <!--The <img> tag is used to embed an image in an HTML page.-->
+    <!--The <img> tag has two required attributes:-->
+    <!--The src and alt attributes-->
+    <!--src - Specifies the URL of the image-->
+    <img src="images/cat_image.jpg" alt="Image of a Cat" width="300" height="200"style="display: block; margin: auto;"/>
     
-    <!-- The "alt" attribute is used to specify an alternate text for an image, if the image cannot be displayed. -->
-    <!-- The "alt" attribute provides alternative information for an image if a user for some reason cannot view it
-    (because of slow connection, an error in the src attribute, or if the user uses a screen reader). -->
-    <!--The style attribute is used to  -->
+    <!--The src attribute specifies the image file's location-->
+    <!--The alt attribute provides alternative information for an image if a user for some reason cannot view it 
+        (because of slow connection, an error in the src attribute, or if the user uses a screen reader).-->   
+    <!--The style attribute is used to specify the styling of the image. In this case, we are centering the image on the page.--> 
+
+    <!--styling with CSS -->
+    <!--<style>
+        .image align-left {
+            float:left;
+            margin-right:10px; /* Add some space between the image and the text */
+        }
+    </style>-->
+    
 </body>
 </html>
 
+<!--HTML supports various image file formats, including -->
+<!--JPEG, PNG, GIF, and SVG.-->
+<!--JPEG (Joint Photographic Experts Group) Photographs, images with gradients, and complex scenes -->
+<!--PNG (Portable Network Graphics): Images with transparency, icons, logos, and graphics with sharp edges -->
+<!--GIF (Graphics Interchange Format): Animated images, simple graphics, and images with transparency -->
+<!--SVG (Scalable Vector Graphics): Logos, icons, and simple graphics-->
+<!--webP: For Modern web browsers and efficient image delivery-->
+<!--BMP (Bitmap Image):Rarely used on the web due to large file sizes and lack of compression  -->
