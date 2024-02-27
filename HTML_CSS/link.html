@@ -5,15 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Links in HTML</title>
 </head>
+
+<!--Aa link, also known as a hyperlink, is an element that lets users navigate from one web page to another.
+They also allow users to navigate to external resources such as documents, images, videos, and more. -->
+
 <body>
-    <a href="https://google.com" target = "_blank">Google Website</a> 
-    <a href="https://facebook.com" target = "_blank">Facebook Website</a>
-    <a href="https://youtube.com" target = "_blank">Youtube Website</a>
+    <a href="https://google.com" target = "_self">Google Website</a> 
+    <a href="https://facebook.com" target = "_parent">Facebook Website</a>
+    <a href="https://youtube.com" target = "_top">Youtube Website</a>
     <a href="https://twitter.com" target = "_blank">Twitter Website</a>
     <a href="https://instagram.com" target = "_blank">Instagram Website</a>
     <a href="https://linkedin.com" target = "_blank">Linkedin Website</a>
     <a href="https://github.com" target = "_blank">Github Website</a>
     <a href="https://stackoverflow.com" target = "_blank">Stackoverflow Website</a>
-    <a href="mailto:richardmiruka96@gmail.com" target = "_blank">Email Me</a>
+    <a href="mailto:richardmiruka96@gmail.com" target = "_blank">Email Me</a> <!--links that open an email client with a pre-filled recipient address, use the mailto scheme:-->
+    <a href="tel:+254712345678" target = "_blank">Call Me</a> <!--links that open a phone dialer with a pre-filled phone number, use the tel scheme:-->
+    <a href="sms:+254712345678" target = "_blank">Text Me</a> <!--links that open a messaging app with a pre-filled phone number, use the sms scheme:-->
+    
+
+
+<!--The target attribute specifies where to open the linked document.-->
+<!--_self: Opens the linked document in the same window/tab as it was clicked (this is default)-->
+<!--_blank: Opens the linked document in a new window or tab-->
+<!--_parent: Opens the linked document in the parent frame-->
+<!--_top: Opens the linked document in the full body of the window-->
 </body>
 </html>
+
+<!--Text links are versatile and can be used for various purposes, 
+such as linking to other web pages, external websites, or even specific
+ sections within a page using anchor tags.-->
