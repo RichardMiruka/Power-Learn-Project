@@ -1,4 +1,6 @@
-#The Set is an unordered collection of unique items.
+#The Set is an unordered collection of unique items. 
+# Each element in the set must be unique.
+#You can use curly braces {} or the set() function to create a set.
 # Set is defined by values separated by commas inside braces { }
 
 # An empty set is created using set() function  that returns an empty set.

@@ -1,4 +1,22 @@
-# Python dictionary is an ordered collection of items. 
+# Python dictionary is an ordered collection of items. {key:value}
+# Dictionaries are optimized for retrieving data. They have a key-based index, not an index-based index. 
+
+my_dict = {'name': 'John', 1: [2, 4, 3]}
+print(type(my_dict))                # <class 'dict'>
+
+# Accessing values by their keys
+print(my_dict['name'])              # John
+print(my_dict[1])                # [2, 4, 3]
+
+# Adding new item to the dictionary
+my_dict['age'] = 25                   # Adds a new key-value pair
+print(my_dict)                        # {'name': 'John', 1: [2, 4, 3], 'age': 25}
+# Updating existing value
+my_dict['name'] = 'Jane'              # Updates the value of the key 'name'
+print(my_dict)                        # {'name': 'Jane', 1: [2, 4, 3], 'age': 25}
+
+# Removing items from the dictionary using pop() method
+removed_item = my_dict
 # It stores elements in key/value pairs. 
 
 #create a dictionary named capital_city
@@ -67,10 +85,10 @@ def display_capital():
         print("%s\t%s" % (country, capital))
         
 display_capital() # Country	Capital
-                    # India	New Delhi
-                    # USA	Washington D.C.
-                    # UK	London
-                    # France	Paris
+                  # India	New Delhi
+                  # USA	Washington D.C.
+                  # UK	London
+                  # France	Paris
 
 #You can also return a dictionary from a function. Here we are returning the "capital_city" dictionary from the "get_capital()" function.
 def get_capital():
@@ -90,7 +108,14 @@ print(countries_cities)   #{'Germany': 'Berlin', 'Spain': 'Madrid', 'Italy': 'Ro
 
 #To add new entries to a dictionary you can use the update() method or the ** operator. 
 #The update() method adds element(s) to the dictionary if the key is not present.
-# If the key is already in the dictionary, it updates the value. 
+# If the key is already in the dictionary, it updates the value.
+countries_cities.update({'UK':'London'})
+print(countries_cities)    #{'Germany': 'Berlin', 'Spain': 'Madrid', 'Italy': 'Rome', 'UK': 'London'}
+
+#Using the ** operator allows you to pass a dictionary of keyword arguments to a function.
+# In this case, we have a function named "my_func()" that takes two positional arguments and a variable number of keyword arguments.
+
+ 
 # The ** operator unpacks dictionaries into keyword arguments which are then used to add elements to the dictionary.
 #If you want to ignore duplicate keys, use the update() method with the replace=True argument.
 
