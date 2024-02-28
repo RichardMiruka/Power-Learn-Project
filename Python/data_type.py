@@ -25,6 +25,8 @@ print(num8, "is of type", type(num8))  # Output: {1: 'one', 2: 'two', 3: 'three'
 num9 = range(5)
 print(num9, "is of type", type(num9))  # Output: range(0, 5) is of type <class 'range'>
 
+
+
 # data type represents a kind of value and determines 
 # how the value can be used in expressions and operations.
 
@@ -42,3 +44,9 @@ print(num9, "is of type", type(num9))  # Output: range(0, 5) is of type <class '
 # Binary Types: bytes, bytearray, memoryview
 
 # You can get the data type of any object by using the type() function:
+
+#concatenation (add) of two strings
+result_string = num4 + " " + "World"
+print("Concatenated string result: ", result_string)  # Output: Concatenated string result:  Hello World
+print("Type of concatenated string result: ", type(result_string))  # Output: Type of concatenated string result:  <class 'str'>
+print(type(result_string), "\n")  # Output: <class 'str'>
