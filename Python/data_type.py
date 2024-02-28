@@ -7,6 +7,24 @@ print(num2, "is of type", type(num2))  # Output: 3.2 is of type <class 'float'>
 num3 = 1 +2j
 print(num3, "is of type", type(num3))  # Output: (1+2j) is of type <class 'complex'>
 
+num4 = "Hello"
+print(num4, "is of type", type(num4))  # Output: Hello is of type <class 'str'>
+
+num5 = [1,2,3]
+print(num5, "is of type", type(num5))  # Output: [1, 2, 3] is of type <class 'list'>
+
+num6 = (1,2,3)
+print(num6, "is of type", type(num6))  # Output: (1, 2, 3) is of type <class 'tuple'>
+
+num7 = {1,2,3}
+print(num7, "is of type", type(num7))  # Output: {1, 2, 3} is of type <class 'set'>
+
+num8 = {1: 'one', 2: 'two', 3: 'three'}
+print(num8, "is of type", type(num8))  # Output: {1: 'one', 2: 'two', 3: 'three'} is of type <class 'dict'>
+
+num9 = range(5)
+print(num9, "is of type", type(num9))  # Output: range(0, 5) is of type <class 'range'>
+
 # data type represents a kind of value and determines 
 # how the value can be used in expressions and operations.
 
@@ -20,6 +38,7 @@ print(num3, "is of type", type(num3))  # Output: (1+2j) is of type <class 'compl
 # Mapping Types: dict
 # Set Types: set, frozenset
 # Boolean Type: bool
+#  None Type: None
 # Binary Types: bytes, bytearray, memoryview
 
 # You can get the data type of any object by using the type() function:
