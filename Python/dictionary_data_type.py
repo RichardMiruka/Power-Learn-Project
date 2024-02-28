@@ -193,16 +193,3 @@ except TypeError as e:
     
 #The setdefault() method returns the value of a key (if the key is in the dictionary).
 # If not, then it inserts the key with the specified value (also default value if given) and returns the value. 
-
-
-# The fromkeys() static method returns a new dictionary with keys set to any element from the iterable and values set to the value.
-s = { }s = { }s = { }s = { }s = {1 : "one", 2 : "two", 3 : "three",s = { }s = {1 : "one", 2:"two", 3:"three"}   # {1: 'one', 2: 'two', 3: 'three'}s = { }
-print(s) # Output: {} (empty dictionary)
-
-# The setdefault() method returns the value of a key if it exists. If not, it inserts the key with a specified value and returns the value.
-
-print(s.setdefault(1)) # Output: one
-print(s)                # Output: {1: 'one'}
-
-print(s.setdefault(4)) # Output: None
-print(s)                # Output: {1: 'one', 4: None}

@@ -3,13 +3,17 @@ name = "John"
 print(type(name))  # <class 'str'>
 print(name)        # John
 
+age = 30
+print(type(age))   # <class 'int'>
+print(age)         # 30
+
 # Strings are immutable, meaning they cannot be changed after creation.
 try:
     name[0] = 'K' # TypeError: 'str' object does not support item assignment
 except Exception as e:
     print(e)
 
-# You can concatenate strings using the + operator to create a new string.
+# You can concatenate (add) strings using the + operator to create a new string.
 full_name = name + " " + "Doe"
 print(full_name)   # John Doe
 
