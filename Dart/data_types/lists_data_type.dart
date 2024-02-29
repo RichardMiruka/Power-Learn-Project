@@ -12,14 +12,14 @@ void main() {
   //printing list
   print("numbers are $numbers");
   print("names are $names");
-  print("isMarried are $isMarried");
+  print("isMarried is $isMarried");
 }
 
 /*
 Output:
 numbers are [1, 2, 3, 4, 5]
 names are [John, Doe, Smith]
-isMarrid are [true, false, true]
+isMarried is [true, false, true]
 */
 
 // Accessing elements in the list
@@ -29,9 +29,9 @@ void accessElementsInList(){
   List<bool> isMarried = [true, false, true];
 
   //accessing elements
-  print("First number is ${numbers[0]}");
-  print("Second name is ${names[1]}");
-  print("Third isMarried is ${isMarried[2]}");
+  print("First number is ${numbers[0]}"); // index 0
+  print("Second name is ${names[1]}"); // index 1
+  print("Third isMarried is ${isMarried[2]}"); // index 2
 }
 
 // Adding element to the existing list
@@ -41,15 +41,25 @@ void addElementToList() {
   List<bool> isMarried = [true, false, true];
 
   //adding elements
-  numbers.add(6);
-  names.add("Alex");
-  isMarried.add(false);
+  numbers.add(6); //adding 6 at last position of numbers list
+  names.add("Alex"); // adding Alex at last position of names list
+  isMarried.add(false); // adding false at last position of isMarried list
 
-  //printing list
+  print("Updated numbers are $numbers");
+  print("Updated names are $names");
+  print("Updated isMarried are $isMarried");
+
+  //adding multiple elements at once
+  numbers.addAll([7,8,9]);
+  names.addAll(["Jane", "Alice"]);
+  isMarried..addAll([true, false]); // using .. operator for shorthand property notation
+
+  print("\nAfter adding all elements at once");
   print("numbers are $numbers");
   print("names are $names");
   print("isMarried are $isMarried");
 }
+
 
 // Removing elements from the list
 void removeFromTheList() {
