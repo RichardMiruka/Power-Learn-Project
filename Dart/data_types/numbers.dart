@@ -1,3 +1,9 @@
+//When you need to store numeric value on dart,
+//you can use either int or double.
+//Both int and double are subtypes of num.
+// Int stores whole numbers while
+//double stores decimal numbersvoid main() {
+
 void main() {
 //declaring variables
   int num1 = 100;
@@ -14,4 +20,3 @@ void main() {
   print("Num 3 is ${num3}");
   print("Sum of Num 1 to Num 4 is $sum");
 }
-
