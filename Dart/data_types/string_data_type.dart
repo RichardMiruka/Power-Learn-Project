@@ -37,7 +37,7 @@ String fullName(String firstName, String lastName) {
 void main1() {
   String name = fullName("John", "Doe");
   print(name);
-} /* Output will be : John Doe */</dart> 
+} /* Output will be : John Doe */ 
 
 //In the above example we created a function fullName which takes two parameters firstName and lastName of type String.
 // This is an example how you can pass parameters to a function in dart.
