@@ -1,5 +1,7 @@
 # Kenyan Food Tourism Guide
 
+![image](https://github.com/RichardMiruka/Power-Learn-Project/assets/105627752/d08e392b-f0e6-4e53-a689-5e0c85a4c64e)
+
 ## Introduction
 
 Have you ever pondered the idea of food tourism? Well, look no further than Kenya! Renowned for its diverse and mouthwatering dishes, Kenya is a culinary paradise waiting to be explored. Ask any Kenyan living abroad, and they'll undoubtedly express the nostalgia for the rich and flavorful Kenyan cuisine.
