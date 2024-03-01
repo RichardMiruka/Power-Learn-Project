@@ -1,6 +1,7 @@
 # Kenyan Food Tourism Guide
 
-![image](https://github.com/RichardMiruka/Power-Learn-Project/assets/105627752/d08e392b-f0e6-4e53-a689-5e0c85a4c64e)
+![image](https://github.com/RichardMiruka/Power-Learn-Project/assets/105627752/d08e392b-f0e6-4e53-a689-5e0c85a4c64e) ![image](https://github.com/RichardMiruka/Power-Learn-Project/assets/105627752/7dfcdf4c-f7ea-46ac-9acd-0dc8384a12e2)
+
 
 ## Introduction
 
