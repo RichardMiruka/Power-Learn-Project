@@ -1,4 +1,3 @@
-// Task 1
 // Task 1: Function to add two numbers
 int addTwo(int a, int b) {
   int sum = a + b;
