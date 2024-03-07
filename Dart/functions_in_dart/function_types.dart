@@ -1,5 +1,7 @@
 
- // In the next section, we will learn about the different types of functions in Dart. 
+ //In the next section, we will learn about the different types of functions in Dart. 
+ //A function is a set of statements that performs a specific task.
+ //In Dart, functions are objects and have a type, Function.
 //Types of Functions in Dart 
 //Dart supports the following types of functions: 
 // 1. Named Functions 2. Anonymous Functions 3.Lambda Functions 
@@ -28,7 +30,7 @@
 
 // Lambda Functions 
 //A lambda function is a concise way to write a function. 
-  void main() {
+  void maiin() {
     var add = (int num1, int num2) => print('Sum: ${num1 + num2}');
     add(10, 20);
   }
@@ -46,7 +48,7 @@
  
 //Required Parameters 
 //Required parameters are the parameters that are mandatory to pass when calling a function. 
-  void add (int num1, int num2){
+  void addd (int num1, int num2){
     print('Sum: ${num1 + num2}');
   }
   
