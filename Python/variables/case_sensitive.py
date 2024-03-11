@@ -14,7 +14,6 @@ This shows that Python is a case-sensitive language, and it treats "num" and "Nu
 """
 
 # Path: case_sensitive.py
-
 def print_case():
     with open("case_sensitive.py", "r") as file:
         data = file.readlines()
