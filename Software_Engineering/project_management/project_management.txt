@@ -1,1 +1,52 @@
-to 
+# Roles of a Project Manager.
+
+Your job as a PM is to deliver business impact by marshaling the resources of your team to identify and solve the most impactful customer problems.
+There are three parts to this, each essential:
+
+
+
+1. Deliver business impact
+
+
+Fundamentally, you are responsible for delivering business impact. If your team drives positive impact—hitting important goals, reducing costs, shipping an important project, etc.—you’re doing your job.
+
+
+
+2. Marshaling the resources of your team
+
+
+Your job isn’t to do the building yourself but instead to increase the leverage of your cross-functional teammates—designers, engineers, data scientists, researchers—to deliver impact. As a philosopher said a product manager’s output = the output of their team.
+
+
+
+3. Identify and solve the most impactful customer problems
+
+
+Business impact comes from solving customer problems. Thus, it’s your job to lead your team to correctly identify, prioritize, and solve the most impactful customer problems.
+
+PMs are the ultimate business lever.
+
+
+
+Give me a lever long enough and a fulcrum on which to place it, and I shall move the world.
+—Archimedes
+
+
+The three core jobs of a product manager
+Another way to define the role of a PM is to break out the day-to-day jobs of a product manager:
+
+Shape the product: Harness insights from customers, stakeholders, and data to prioritize and build a product that will have the most impact on the business.﻿
+Ship the product: Ship high-quality products on time and free of surprises.
+Synchronize the people: Align all stakeholders around one vision, strategy, goal, roadmap, and timeline to avoid wasted time and effort.
+
+
+All of that is a means to delivering impact.
+
+
+
+The attributes of successful product managers
+
+
+
+A different approach to understanding the PM job is to look at how PMs are evaluated.10 common attributes of successful product managers:
+
