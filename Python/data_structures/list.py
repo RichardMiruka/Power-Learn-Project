@@ -1,3 +1,4 @@
+# In Python, lists are used to store multiple data at once
 # a list of three numbers 
 numbers = [1, 2, 3]
 print(numbers) # [1, 2, 3]
