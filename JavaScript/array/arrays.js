@@ -88,3 +88,11 @@ console.log(sum); // 17 - Shows that the original array was not modified and the
 var allLongerThanFour = filteredArr.every((value) => value.length > 4);
 console.log(allLongerThanFour); // true - Shows that all elements in the filtered array have a length greater than 4
 
+const fruits = ["apple", "banana", "mango", "guava"];
+let longestWordLength = fruits.reduce((acc, val) => Math.max(acc, val.length), 0);
+console.log(`The length of the longest word in the array is ${longestWordLength}`); // The length of the longest word in the array is 6
+
+const start = -3;
+const removedItems = fruits.splice(start);
+console.log(fruits); // ["apple", "banana"] - Shows that the original array was modified
+console.log(removedItems); // ["banana", "mango", "guava"] - Shows that the original array was modified
