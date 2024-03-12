@@ -1,0 +1,13 @@
+selector {
+    property: value;
+    property: value;
+    property: value;
+    color : value;
+    background-color: value;
+    font-size: value;
+
+}
+p {
+    color: red;
+    font-size: 50px;
+}
