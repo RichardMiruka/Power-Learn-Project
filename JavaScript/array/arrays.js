@@ -25,8 +25,7 @@ console.log(arr); // ["2", "3", "4", "5", "Hello"] - Shows that the original ord
 
 
 // unshift() - Add one or more elements to the beginning of an array and returns the new length of the array.
-arr.unshift("Hello", "World");
-console.log(arr); // ["Hello", "World", "2", "3", "4", "5", "Hello"] - Shows that the original order was not changed
+arr.unshift("Hello", "World"); //arr.unshift("Hello", "World"); returns 7 because there were initially 5 elements + 2 new elements
 console.log(arr); // ["Hello", "World", "2", "3", "4", "5", "Hello"] - Shows that the original order was not changed
 
 // slice() - Extracts a section of an array and returns a new array. It does not modify the original array.
