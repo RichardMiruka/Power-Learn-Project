@@ -49,7 +49,6 @@ var str = arr.join(", ");
 console.log(str); // "Hello, World, Goodbye, Cruel, World, 4, 5, Hello"
 
 // indexOf(), lastIndexOf() - Returns the first (last) index at which a given element can be found in the array, or -1 if it is not present.
-// indexOf(), lastIndexOf() - Returns the first (last) index at which a given element can be found in the array, or -1 if it is not present.
 // indexOf() - Returns the first index at which a given element can be found in the array, or -1 if it is not present.
 
 console.log(arr.indexOf("Hello")); // 0 - "Hello" is the first element of the array
