@@ -24,3 +24,24 @@ print("Here is a list of programming languages with their index using the `enume
 
 for index_number, language in enumerate (languages):
     print(index_number, language)
+    
+# You can also use the `for` loop to iterate over all the elements in a list and print the index of each element in reverse order.
+"""The `enumerate()` function adds an index to each element in the list. 
+It returns an enumerate object that contains tuples containing the index and the element. """
+print("Here is a list of programming languages with their index in reverse order using the `enumerate()` function:")
+for index_number, language in enumerate (reversed(languages)):
+    print(index_number, language)
+
+# You can also use the `for` loop to iterate over all the elements in a list and print the index of each element in reverse order.
+print("Here is a list of programming languages with their index in reverse order:")
+
+# The `list()` function converts the enumerate object to a list.
+reverse_programming_languages = list(reversed(languages))
+
+for index_number, language in enumerate (reverse_programming_languages):
+    print(index_number, language)
+    
+# You can also use the `for` loop to iterate over all the elements in a list and print the index of each element in reverse order.
+"""Note that the `enumerate()` function adds an index to each element in the list. 
+So when we convert it back to a list, the index will be in reverse order."""
+print("Here is a list of programming languages with their index in reverse order using the `enumerate()` function:")
