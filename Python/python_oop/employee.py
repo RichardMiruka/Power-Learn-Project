@@ -15,14 +15,15 @@
 
 class Employee : # Class definition
     def __init__(self, name, age, salary,) : # Constructor method to initialize instance variables
-        self.name = name
-        self.age = age
-        self.salary = salary
+        self.name = name # Instance variable 'name' holds the value of attribute 'name'
+        self.age = age # Instance variable 'age' holds the value of attribute 'age'
+        self.salary = salary # Instance variable 'salary' holds the value of attribute 'salary'
+        
 
-    def display(self) :
-        print("Name: ", self.name)
-        print("Age: ", self.age)
-        print("Salary: ", self.salary)
+    def display(self) : # Method to display the value of instance variables
+        print("Name: ", self.name) # Print the value of instance variable 'name'
+        print("Age: ", self.age) # Print the value of instance variable 'age'
+        print("Salary: ", self.salary) # Print the value of instance variable 'salary'
         
 # Testing the code
 employee1 = Employee("Richard Miruka", 30, 50000)
