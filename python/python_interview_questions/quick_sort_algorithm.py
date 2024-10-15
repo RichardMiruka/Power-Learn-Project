@@ -1,3 +1,8 @@
+# Often faster than Merge Sort in practice due to less overhead (no need for auxiliary space for merging).
+# est for sorting arrays in place.
+# Can be inefficient in its worst case, so it's better to implement randomized Quick Sort to avoid worst case scenario.
+# Quick Sort has an average-case time complexity of O(n log n) but can degrade to O(n²) in the worst case
+
 # quick sort algorithm in python
 
 def quick_sort(arr):
@@ -17,7 +22,7 @@ def quick_sort(arr):
         return quick_sort(left) + [pivot] + quick_sort(right)
 
 # Example usage
-arr = [38, 27, 43, 3, 9, 82, 10]
+arr = [38, 27, 43, 3, 9, 82, 10] # Output: [3, 9, 10, 27, 38, 43, 82]
 print("original array:", arr)
 sorted_arr = quick_sort(arr)
 print("sorted array:", sorted_arr)
